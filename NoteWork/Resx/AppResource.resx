@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="anasayfadisplayalert1" xml:space="preserve">
+    <value>Ulaşım İzni?</value>
+  </data>
+  <data name="anasayfadisplayalert2" xml:space="preserve">
+    <value>Rehberinize erişim izni gerekiyor...</value>
+  </data>
+  <data name="anasayfadisplayalert3" xml:space="preserve">
+    <value>İzin Ver</value>
+  </data>
+  <data name="anasayfadisplayalert4" xml:space="preserve">
+    <value>Atla</value>
+  </data>
+  <data name="aramasayfasiplaceholder" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="girisyapbutoniptal" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="girisyapdisplayalert11" xml:space="preserve">
+    <value>Dikkat</value>
+  </data>
+  <data name="girisyapdisplayalert12" xml:space="preserve">
+    <value>Lütfen boşlukları doğru bir şekilde doldurunuz!</value>
+  </data>
+  <data name="girisyapdisplayalert13" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="girisyapdisplayalert21" xml:space="preserve">
+    <value>Dikkat</value>
+  </data>
+  <data name="girisyapdisplayalert22" xml:space="preserve">
+    <value>Bilgilerinizde eksik veya yanlış girdi tespit edilmiştir. Lütfen tekrar bilgilerinizi giriniz!</value>
+  </data>
+  <data name="girisyapdisplayalert23" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="girisyaplabelmail" xml:space="preserve">
+    <value>Mail Adresiniz</value>
+  </data>
+  <data name="girisyaplabelsifre" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="kayitolabelad" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="kayitolabelmailadresi" xml:space="preserve">
+    <value>Mail Adresi</value>
+  </data>
+  <data name="kayitolabelsifre" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="kayitolabelsifretekrar" xml:space="preserve">
+    <value>Şifreniz(Tekrar)</value>
+  </data>
+  <data name="kayitolabelsoyad" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+  <data name="kayitolbutoniptal" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="kayitoldisplayalert11" xml:space="preserve">
+    <value>Dikkat</value>
+  </data>
+  <data name="kayitoldisplayalert12" xml:space="preserve">
+    <value>Lütfen boşlukları doldurunuz!</value>
+  </data>
+  <data name="kayitoldisplayalert13" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="kayitoldisplayalert21" xml:space="preserve">
+    <value>Dikkat</value>
+  </data>
+  <data name="kayitoldisplayalert22" xml:space="preserve">
+    <value>Lütfen şifrenizi tekrar giriniz!</value>
+  </data>
+  <data name="kayitoldisplayalert23" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="kayitoldisplayalert31" xml:space="preserve">
+    <value>Dikkat</value>
+  </data>
+  <data name="kayitoldisplayalert32" xml:space="preserve">
+    <value>Bilgilerinizde eksik veya yanlış girdi tespit edilmiştir. Lütfen tekrar bilgilerinizi giriniz!</value>
+  </data>
+  <data name="kayitoldisplayalert33" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="temelbilgibutoniptal" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="temelbilgidurumplaceholder" xml:space="preserve">
+    <value>NoteWork AŞ., Ruken Computer Ltd., vs.</value>
+  </data>
+  <data name="temelbilgilabel1" xml:space="preserve">
+    <value>Temel bilgilerinizi hızlıca tamamlayın...</value>
+  </data>
+  <data name="temelbilgilabel2" xml:space="preserve">
+    <value>Çalıştığınız Kurum</value>
+  </data>
+  <data name="temelbilgilabel3" xml:space="preserve">
+    <value>İş Unvanı</value>
+  </data>
+  <data name="temelbilgilabel4" xml:space="preserve">
+    <value>Üniversiteniz</value>
+  </data>
+  <data name="temelbilgiplaceholdercalismiyorum" xml:space="preserve">
+    <value>(Çalışmıyorum)</value>
+  </data>
+  <data name="temelbilgiuniversiteplaceholder" xml:space="preserve">
+    <value>Boğaziçi Üniversitesi, İstanbul Üniversitesi vs.</value>
+  </data>
+  <data name="temelbilgiunvanplaceholder" xml:space="preserve">
+    <value>Android Geliştirici, Doktor, Pazarlama Müdürü, vs.</value>
+  </data>
+  <data name="agimplaceholder" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="ayarlartableroot" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ayarlartablesection1" xml:space="preserve">
+    <value>HESAP AYARLARI</value>
+  </data>
+  <data name="ayarlartablesection2" xml:space="preserve">
+    <value>YARDIM</value>
+  </data>
+  <data name="ayarlartablesection3" xml:space="preserve">
+    <value>HAKKINDA</value>
+  </data>
+  <data name="ayarlartextcell1" xml:space="preserve">
+    <value>Şifre Değiştir</value>
+  </data>
+  <data name="ayarlartextcell10" xml:space="preserve">
+    <value>Çıkış Yap</value>
+  </data>
+  <data name="ayarlartextcell2" xml:space="preserve">
+    <value>Hesabımı Sil</value>
+  </data>
+  <data name="ayarlartextcell3" xml:space="preserve">
+    <value>Gizlilik Tercihleri</value>
+  </data>
+  <data name="ayarlartextcell4" xml:space="preserve">
+    <value>Nasıl Kullanılır?</value>
+  </data>
+  <data name="ayarlartextcell5" xml:space="preserve">
+    <value>Bize Yaz</value>
+  </data>
+  <data name="ayarlartextcell6" xml:space="preserve">
+    <value>Versiyon 1.0</value>
+  </data>
+  <data name="ayarlartextcell7" xml:space="preserve">
+    <value>İlkeler ve Koşullar</value>
+  </data>
+  <data name="ayarlartextcell8" xml:space="preserve">
+    <value>Gizlilik ve Güvenlik</value>
+  </data>
+  <data name="ayarlartextcell9" xml:space="preserve">
+    <value>Arkadaşlarına Öner</value>
+  </data>
+  <data name="entegrasyonplaceholder" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="kisieklebuton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="kisieklelabel1" xml:space="preserve">
+    <value>    Arkadaşınızın temel bilgilerini ekleyin…</value>
+  </data>
+  <data name="kisieklelabel10" xml:space="preserve">
+    <value>İlk İzlenim</value>
+  </data>
+  <data name="kisieklelabel11" xml:space="preserve">
+    <value>Ayırt edici özelliği</value>
+  </data>
+  <data name="kisieklelabel12" xml:space="preserve">
+    <value>Tanışıklık</value>
+  </data>
+  <data name="kisieklelabel13" xml:space="preserve">
+    <value>Çevre</value>
+  </data>
+  <data name="kisieklelabel2" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="kisieklelabel3" xml:space="preserve">
+    <value>Çalıştığı Kurum</value>
+  </data>
+  <data name="kisieklelabel4" xml:space="preserve">
+    <value>İş Ünvanı</value>
+  </data>
+  <data name="kisieklelabel5" xml:space="preserve">
+    <value>Yaşadığı Şehir</value>
+  </data>
+  <data name="kisieklelabel6" xml:space="preserve">
+    <value>Telefon Numarası</value>
+  </data>
+  <data name="kisieklelabel7" xml:space="preserve">
+    <value>Mail Adresi</value>
+  </data>
+  <data name="kisieklelabel8" xml:space="preserve">
+    <value>Ne zaman tanıştın</value>
+  </data>
+  <data name="kisieklelabel9" xml:space="preserve">
+    <value>Nerede tanıştın</value>
+  </data>
+  <data name="kisieklepicker1" xml:space="preserve">
+    <value>Aile</value>
+  </data>
+  <data name="kisieklepicker2" xml:space="preserve">
+    <value>İş Arkadaşı</value>
+  </data>
+  <data name="kisieklepicker3" xml:space="preserve">
+    <value>Okul Arkadaşı</value>
+  </data>
+  <data name="kisieklepicker4" xml:space="preserve">
+    <value>Yakın Arkadaş</value>
+  </data>
+  <data name="kisieklepicker5" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="profilentitychildclassname1" xml:space="preserve">
+    <value>Ad Soyad</value>
+  </data>
+  <data name="profilentitychildclassname10" xml:space="preserve">
+    <value>Temel</value>
+  </data>
+  <data name="profilentitychildclassname11" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="profilentitychildclassname12" xml:space="preserve">
+    <value>İş</value>
+  </data>
+  <data name="profilentitychildclassname13" xml:space="preserve">
+    <value>Eğitim</value>
+  </data>
+  <data name="profilentitychildclassname14" xml:space="preserve">
+    <value>Eş ve çocuklarının isimleri</value>
+  </data>
+  <data name="profilentitychildclassname15" xml:space="preserve">
+    <value>Ev adresin</value>
+  </data>
+  <data name="profilentitychildclassname16" xml:space="preserve">
+    <value>Üye olduğun dernek ve vakıflar</value>
+  </data>
+  <data name="profilentitychildclassname17" xml:space="preserve">
+    <value>İlgilendiğin sporlar</value>
+  </data>
+  <data name="profilentitychildclassname18" xml:space="preserve">
+    <value>Hobilerin</value>
+  </data>
+  <data name="profilentitychildclassname19" xml:space="preserve">
+    <value>Tuttuğun takım</value>
+  </data>
+  <data name="profilentitychildclassname2" xml:space="preserve">
+    <value>Cinsiyetin</value>
+  </data>
+  <data name="profilentitychildclassname20" xml:space="preserve">
+    <value>Seyehatlerin</value>
+  </data>
+  <data name="profilentitychildclassname3" xml:space="preserve">
+    <value>Yaşadığın Şehir</value>
+  </data>
+  <data name="profilentitychildclassname4" xml:space="preserve">
+    <value>Telefon Numaran</value>
+  </data>
+  <data name="profilentitychildclassname5" xml:space="preserve">
+    <value>Mail Adresin</value>
+  </data>
+  <data name="profilentitychildclassname6" xml:space="preserve">
+    <value>child21</value>
+  </data>
+  <data name="profilentitychildclassname7" xml:space="preserve">
+    <value>child22</value>
+  </data>
+  <data name="profilentitychildclassname8" xml:space="preserve">
+    <value>child23</value>
+  </data>
+  <data name="profilentitychildclassname9" xml:space="preserve">
+    <value>child24</value>
+  </data>
+  <data name="profilentityclassname1" xml:space="preserve">
+    <value>Ad Soyad</value>
+  </data>
+  <data name="profilentityclassname2" xml:space="preserve">
+    <value>Sosyal Ağlar</value>
+  </data>
+  <data name="profilentityclassname3" xml:space="preserve">
+    <value>Temel Bilgiler</value>
+  </data>
+  <data name="profilentityclassname4" xml:space="preserve">
+    <value>Kişisel Bilgiler</value>
+  </data>
+  <data name="sikayetlabeltext" xml:space="preserve">
+    <value>Sorun bildir / Soru sor / Öneri sun</value>
+  </data>
+  <data name="kisiekle2label" xml:space="preserve">
+    <value>Arkadaşınızın kişisel bilgilerini ekleyin</value>
+  </data>
+  <data name="hesapsildisplayalert1" xml:space="preserve">
+    <value>Emin misin?</value>
+  </data>
+  <data name="hesapsildisplayalert2" xml:space="preserve">
+    <value>Hesabını silersen kayıtlı bütün ağını kaybedeceksin unutma!</value>
+  </data>
+  <data name="hesapsildisplayalert3" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="hesapsildisplayalert4" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="hesapsillabel1" xml:space="preserve">
+    <value>Mail Adresiniz</value>
+  </data>
+  <data name="hesapsillabel2" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="hesapsillabel3" xml:space="preserve">
+    <value>Şifre(Tekrar)</value>
+  </data>
+  <data name="iptalbuton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="sifredegistirlabel1" xml:space="preserve">
+    <value>Eski Şifre</value>
+  </data>
+  <data name="sifredegistirlabel2" xml:space="preserve">
+    <value>Yeni Şifre</value>
+  </data>
+  <data name="sifredegistirlabel3" xml:space="preserve">
+    <value>Yeni Şifre(Tekrar)</value>
+  </data>
+  <data name="kisieklelabelsoyad" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+</root>
