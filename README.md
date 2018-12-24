@@ -1,3 +1,3 @@
-# NoteWorkApp beta Xamarin.
+# NoteWorkApp beta Xamarin
 
 NoteWork mobile app beta.
